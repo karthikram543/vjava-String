@@ -1,0 +1,26 @@
+public class Main
+{
+	public static void main(String[] args) {
+	
+	  
+	      String str="hey karthik this is zendaya";
+	      int count=0;
+	      int space=' ';
+	      
+	      
+	      for(int i=0;i<str.length();i++){
+	         
+	         if(str.charAt(i) ==space){
+	             count++;
+	         }
+	      }
+	      System.out.println(count);
+
+	   
+	}
+}
+
+
+output:
+
+The space occurrd 4 times
